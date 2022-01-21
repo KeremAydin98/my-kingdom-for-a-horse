@@ -1,1 +1,1 @@
-# gan-image-generation
+# My Kingdom for a horse
