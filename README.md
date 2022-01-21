@@ -31,3 +31,7 @@ This repository is the implementation of vanilla DCGAN image geneneration on Mni
 ### Add noise to the labels
 
 * Adding noise to the labels increases the performance of the discriminator. However, I did not understand the reason behind the improvement. It is more of an empirical discovery rather than theoretical like many of the improvements in machine learning :) 
+
+### Add clipvalue to the optimizer
+
+* Adding clip value to the optimizer is also another barrier to the drastic updates of the gradient. This is also a must while training a GAN algorithm otherwise the image will stay being a random noise no matter how many epochs generator is trained.
