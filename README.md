@@ -28,3 +28,6 @@ This repository is the implementation of vanilla DCGAN image geneneration on Mni
 
 * Overfitting is another issue for training of the GAN algorithm. If the algorithm is overfitted, the discriminator loss decreases to low negative numbers and the generator loss increases exponentially to high values. To avoid this issue, dropout layer must be used on the discriminator network. Dropout layer ignores the percentage, that has been given by the user, of the neurons of that particular layer. The percentage must be given by iterations.
 
+### Add noise to the labels
+
+* Adding noise to the labels increases the performance of the discriminator. However, I did not understand the reason behind the improvement. It is more of an empirical discovery rather than theoretical like many of the improvements in machine learning :) 
