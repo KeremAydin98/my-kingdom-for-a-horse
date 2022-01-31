@@ -1,6 +1,6 @@
 # MY KINGDOM FOR A HORSE
 
-This repository is the implementation of vanilla DCGAN image geneneration on Mnist and Cifar10 datasets. Firstly, I designed a vanilla GAN and DCGAN algorithm for mnist dataset to understand the core of a vanilla GAN algorithm. Then I tried to design a DCGAN algorithm with CIFAR dataset which was the real challenge. I named this repository "my kingdom for a horse" because I only used horse images from Cifar dataset. I wanted to share some of my observations while trying to optimize the GAN algorithm by changing hyperparameters. The images were getting better however because of the discconnection issue of the google collab I could not complete the 40000 steps, only 30000 steps.
+This repository is the implementation of a vanilla DCGAN image generation on Mnist and Cifar10 datasets. Firstly, I designed a vanilla GAN and DCGAN algorithm for mnist dataset to understand the core of a vanilla GAN algorithm. Then I tried to design a DCGAN algorithm with CIFAR dataset which was the real challenge. I named this repository "my kingdom for a horse" because I only used horse images from Cifar dataset. I wanted to share some of my observations while trying to optimize the GAN algorithm by changing hyperparameters. The images were getting better however because of the discconnection issue of the google collab I could not complete the 40000 steps, only 30000 steps.
 
 ## My Observations
 
